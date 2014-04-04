@@ -1,0 +1,44 @@
+{
+  "name": "videostore",
+  "version": "1.0.0",
+  "description": "videostore",
+  "private": true,
+  "authors": [
+    "Ghazni Nattarshah <ghazni.nattarshah@gmail.com>",
+    "Shahm Nattarshah <Shahm.nattarshah@gmail.com>",
+    "Sahul Yakoob <sahul.yakoob@gmail.com"
+  ],
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "scripts": {
+      "start": "node node_modules/grunt-cli/bin/grunt",
+      "test": "node node_modules/grunt-cli/bin/grunt test",
+      "postinstall": "node node_modules/bower/bin/bower install"
+  },
+  "dependencies": {
+  	"express":"*",
+  	"jade": "*",
+  	"mongoose": "*",
+    "connect-mongo" : "*",
+    "crypto": "*",
+    "passport": "*",
+  	"bower": "*",
+  	"grunt": "*",
+  	"grunt-cli": "*",
+  	"grunt-env": "*",
+  	"passport": "*",
+  	"mean-logger": "latest",
+    "mongodb": ">= 0.9.6-7",
+    "mongoose" : ">= 3.6",
+    "lodash": "*",
+    "view-helpers": "*",
+    "winston": "*"
+  },
+  "devDependencies": {
+  	"grunt-contrib-watch":"*",
+  	"grunt-contrib-jshint": "*",
+  	"grunt-nodemon": "*"
+  }
+}

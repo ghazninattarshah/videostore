@@ -1,0 +1,10 @@
+<section id="videosSection" ng-controller="VideoController" ng-init="find()">
+
+	<section id="videoSection" ng-repeat="vid in videos">
+	<video id="{{vid.videoId}}" class="video-js vjs-default-skin" poster="{{vid.poster}}" data-setup="{}" preset="none" controls>
+		<source src="{{trustLink(vid.link)}}" type="{{vid.type}}" />
+	</video>
+	</section>
+	<!-- width="240" height="264" -->
+
+</section>

@@ -1,0 +1,4 @@
+/**
+ * directives.js
+ */
+'use strict';

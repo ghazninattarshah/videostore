@@ -1,0 +1,26 @@
+{
+  "name": "videostore",
+  "version": "1.0.0",
+  "authors": [
+    "Ghazni Nattarshah <ghazni.nattarshah@gmail.com>",
+    "Shahm Nattarshah <Shahm.nattarshah@gmail.com>",
+    "Sahul Yakoob <sahul.yakoob@gmail.com"
+  ],
+  "description": "sample project",
+  "main": "app.js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap" : "*",
+    "jquery": "*",
+    "angular": "*",
+    "angular-cookies": "*",
+    "angular-resource" : "*",
+    "angular-route" : "*",
+    "angular-bootstrap": "*",
+    "angular-ui-utils": "*"
+  }
+}

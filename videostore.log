@@ -1,0 +1,581 @@
+2014-03-07T04:09:42.927Z - info: 
+2014-03-07T04:09:53.229Z - info: 
+2014-03-07T04:10:03.031Z - info: 
+2014-03-07T04:10:05.680Z - info: 
+2014-03-07T04:10:07.132Z - info: 
+2014-03-07T04:16:58.812Z - info: DB Connected!
+2014-03-07T04:18:18.188Z - info: DB Connected!
+2014-03-07T04:18:24.849Z - info: 
+2014-03-07T04:23:15.510Z - info: DB Connected!
+2014-03-07T04:23:21.669Z - info: 
+2014-03-07T04:27:10.269Z - error: uncaughtException: Unexpected token { date=Thu Mar 06 2014 23:27:10 GMT-0500 (EST), pid=12114, uid=501, gid=20, cwd=/Users/shahmghaju/dev/projects/videostore, execPath=/usr/local/Cellar/node/0.10.22/bin/node, version=v0.10.22, argv=[node, /Users/shahmghaju/dev/projects/videostore/app.js], rss=30806016, heapTotal=28055552, heapUsed=10065088, loadavg=[1.44873046875, 1.62548828125, 1.54150390625], uptime=480277, trace=[column=25, file=module.js, function=Module._compile, line=439, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=474, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=356, method=load, native=false, column=12, file=module.js, function=Function.Module._load, line=312, method=Module._load, native=false, column=17, file=module.js, function=Module.require, line=364, method=require, native=false, column=17, file=module.js, function=require, line=380, method=null, native=false, column=17, file=/Users/shahmghaju/dev/projects/videostore/app.js, function=null, line=46, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=true, column=26, file=/Users/shahmghaju/dev/projects/videostore/app.js, function=walk, line=41, method=null, native=false, column=1, file=/Users/shahmghaju/dev/projects/videostore/app.js, function=, line=53, method=null, native=false], stack=[SyntaxError: Unexpected token {,     at Module._compile (module.js:439:25),     at Object.Module._extensions..js (module.js:474:10),     at Module.load (module.js:356:32),     at Function.Module._load (module.js:312:12),     at Module.require (module.js:364:17),     at require (module.js:380:17),     at /Users/shahmghaju/dev/projects/videostore/app.js:46:17,     at Array.forEach (native),     at walk (/Users/shahmghaju/dev/projects/videostore/app.js:41:26),     at Object.<anonymous> (/Users/shahmghaju/dev/projects/videostore/app.js:53:1)]
+2014-03-07T04:27:56.527Z - error: uncaughtException: Unexpected token { date=Thu Mar 06 2014 23:27:56 GMT-0500 (EST), pid=12115, uid=501, gid=20, cwd=/Users/shahmghaju/dev/projects/videostore, execPath=/usr/local/Cellar/node/0.10.22/bin/node, version=v0.10.22, argv=[node, /Users/shahmghaju/dev/projects/videostore/app.js], rss=31338496, heapTotal=28055552, heapUsed=10065088, loadavg=[1.4501953125, 1.6103515625, 1.5400390625], uptime=480323, trace=[column=25, file=module.js, function=Module._compile, line=439, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=474, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=356, method=load, native=false, column=12, file=module.js, function=Function.Module._load, line=312, method=Module._load, native=false, column=17, file=module.js, function=Module.require, line=364, method=require, native=false, column=17, file=module.js, function=require, line=380, method=null, native=false, column=17, file=/Users/shahmghaju/dev/projects/videostore/app.js, function=null, line=46, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=true, column=26, file=/Users/shahmghaju/dev/projects/videostore/app.js, function=walk, line=41, method=null, native=false, column=1, file=/Users/shahmghaju/dev/projects/videostore/app.js, function=, line=53, method=null, native=false], stack=[SyntaxError: Unexpected token {,     at Module._compile (module.js:439:25),     at Object.Module._extensions..js (module.js:474:10),     at Module.load (module.js:356:32),     at Function.Module._load (module.js:312:12),     at Module.require (module.js:364:17),     at require (module.js:380:17),     at /Users/shahmghaju/dev/projects/videostore/app.js:46:17,     at Array.forEach (native),     at walk (/Users/shahmghaju/dev/projects/videostore/app.js:41:26),     at Object.<anonymous> (/Users/shahmghaju/dev/projects/videostore/app.js:53:1)]
+2014-03-07T04:28:53.703Z - info: DB Connected!
+2014-03-07T04:29:01.354Z - info:  strictMode=true, selected=undefined, shardval=undefined, saveError=undefined, validationError=undefined, adhocPaths=undefined, removing=undefined, inserting=undefined, version=undefined, , _id=undefined, populate=undefined, populated=undefined, wasPopulated=false, scope=undefined, title=init, link=init, poster=init, type=init, created=init, _id=init, , created=true, type=true, poster=true, link=true, title=true, _id=true, , , stateNames=[require, modify, init, default], ownerDocument=undefined, fullPath=undefined, isNew=false, errors=undefined, _maxListeners=0, title=How to program, link=http://video-js.zencoder.com/oceans-clip.mp4, poster=http://video-js.zencoder.com/oceans-clip.png, type=video/mp4, created=Sun Feb 23 2014 20:49:33 GMT-0500 (EST), _bsontype=ObjectID, id=S
+¥-Ô¿G{cÝl, save=[function (next) {
+    // validate all document arrays.
+    // we keep the error semaphore to make sure we don't
+    // call `save` unnecessarily (we only need 1 error)
+    var subdocs = 0
+      , error = false
+      , self = this;
+
+    // check for DocumentArrays
+    var arrays = this.$__.activePaths
+    .map('init', 'modify', function (i) {
+      return self.getValue(i);
+    })
+    .filter(function (val) {
+      return val && val instanceof DocumentArray && val.length;
+    });
+
+    if (!arrays.length)
+      return next();
+
+    arrays.forEach(function (array) {
+      if (error) return;
+
+      // handle sparse arrays by using for loop vs array.forEach
+      // which skips the sparse elements
+
+      var len = array.length
+      subdocs += len;
+
+      for (var i = 0; i < len; ++i) {
+        if (error) break;
+
+        var doc = array[i];
+        if (!doc) {
+          --subdocs || next();
+          continue;
+        }
+
+        doc.save(handleSave);
+      }
+    });
+
+    function handleSave (err) {
+      if (error) return;
+
+      if (err) {
+        self.$__.validationError = undefined;
+        return next(error = err);
+      }
+
+      --subdocs || next();
+    }
+
+  }, function checkForExistingErrors(next) {
+    // if any doc.set() calls failed
+    var err = this.$__.saveError;
+    if (err) {
+      this.$__.saveError = null;
+      next(err);
+    } else {
+      next();
+    }
+  }, function validation(next) {
+    return this.validate(next);
+  }], save=[], save=function () {
+      var self = this
+        , hookArgs // arguments eventually passed to the hook - are mutable
+        , lastArg = arguments[arguments.length-1]
+        , pres = this._pres[name]
+        , posts = this._posts[name]
+        , _total = pres.length
+        , _current = -1
+        , _asyncsLeft = proto[name].numAsyncPres
+        , _next = function () {
+            if (arguments[0] instanceof Error) {
+              return handleError(arguments[0]);
+            }
+            var _args = Array.prototype.slice.call(arguments)
+              , currPre
+              , preArgs;
+            if (_args.length && !(arguments[0] == null && typeof lastArg === 'function'))
+              hookArgs = _args;
+            if (++_current < _total) {
+              currPre = pres[_current]
+              if (currPre.isAsync && currPre.length < 2)
+                throw new Error("Your pre must have next and done arguments -- e.g., function (next, done, ...)");
+              if (currPre.length < 1)
+                throw new Error("Your pre must have a next argument -- e.g., function (next, ...)");
+              preArgs = (currPre.isAsync
+                          ? [once(_next), once(_asyncsDone)]
+                          : [once(_next)]).concat(hookArgs);
+              return currPre.apply(self, preArgs);
+            } else if (!proto[name].numAsyncPres) {
+              return _done.apply(self, hookArgs);
+            }
+          }
+        , _done = function () {
+            var args_ = Array.prototype.slice.call(arguments)
+              , ret, total_, current_, next_, done_, postArgs;
+            if (_current === _total) {
+              ret = fn.apply(self, args_);
+              total_ = posts.length;
+              current_ = -1;
+              next_ = function () {
+                if (arguments[0] instanceof Error) {
+                  return handleError(arguments[0]);
+                }
+                var args_ = Array.prototype.slice.call(arguments, 1)
+                  , currPost
+                  , postArgs;
+                if (args_.length) hookArgs = args_;
+                if (++current_ < total_) {
+                  currPost = posts[current_]
+                  if (currPost.length < 1)
+                    throw new Error("Your post must have a next argument -- e.g., function (next, ...)");
+                  postArgs = [once(next_)].concat(hookArgs);
+                  return currPost.apply(self, postArgs);
+                }
+              };
+              if (total_) return next_();
+              return ret;
+            }
+          };
+      if (_asyncsLeft) {
+        function _asyncsDone (err) {
+          if (err && err instanceof Error) {
+            return handleError(err);
+          }
+          --_asyncsLeft || _done.apply(self, hookArgs);
+        }
+      }
+      function handleError (err) {
+        if ('function' == typeof lastArg)
+          return lastArg(err);
+        if (errorCb) return errorCb.call(self, err);
+        throw err;
+      }
+      return _next.apply(this, arguments);
+    }, , strictMode=true, selected=undefined, shardval=undefined, saveError=undefined, validationError=undefined, adhocPaths=undefined, removing=undefined, inserting=undefined, version=undefined, , _id=undefined, populate=undefined, populated=undefined, wasPopulated=false, scope=undefined, title=init, link=init, poster=init, type=init, created=init, _id=init, , created=true, type=true, poster=true, link=true, title=true, _id=true, , , $ref=$[0]["$__"]["activePaths"]["stateNames"], ownerDocument=undefined, fullPath=undefined, isNew=false, errors=undefined, _maxListeners=0, title=How to do performance test, link=http://video-js.zencoder.com/oceans-clip.mp4, poster=http://video-js.zencoder.com/oceans-clip.png, type=video/mp4, created=Sun Feb 23 2014 20:50:23 GMT-0500 (EST), _bsontype=ObjectID, id=S
+¥_Ô¿G{cÝm, save=[function (next) {
+    // validate all document arrays.
+    // we keep the error semaphore to make sure we don't
+    // call `save` unnecessarily (we only need 1 error)
+    var subdocs = 0
+      , error = false
+      , self = this;
+
+    // check for DocumentArrays
+    var arrays = this.$__.activePaths
+    .map('init', 'modify', function (i) {
+      return self.getValue(i);
+    })
+    .filter(function (val) {
+      return val && val instanceof DocumentArray && val.length;
+    });
+
+    if (!arrays.length)
+      return next();
+
+    arrays.forEach(function (array) {
+      if (error) return;
+
+      // handle sparse arrays by using for loop vs array.forEach
+      // which skips the sparse elements
+
+      var len = array.length
+      subdocs += len;
+
+      for (var i = 0; i < len; ++i) {
+        if (error) break;
+
+        var doc = array[i];
+        if (!doc) {
+          --subdocs || next();
+          continue;
+        }
+
+        doc.save(handleSave);
+      }
+    });
+
+    function handleSave (err) {
+      if (error) return;
+
+      if (err) {
+        self.$__.validationError = undefined;
+        return next(error = err);
+      }
+
+      --subdocs || next();
+    }
+
+  }, function checkForExistingErrors(next) {
+    // if any doc.set() calls failed
+    var err = this.$__.saveError;
+    if (err) {
+      this.$__.saveError = null;
+      next(err);
+    } else {
+      next();
+    }
+  }, function validation(next) {
+    return this.validate(next);
+  }], save=[], save=function () {
+      var self = this
+        , hookArgs // arguments eventually passed to the hook - are mutable
+        , lastArg = arguments[arguments.length-1]
+        , pres = this._pres[name]
+        , posts = this._posts[name]
+        , _total = pres.length
+        , _current = -1
+        , _asyncsLeft = proto[name].numAsyncPres
+        , _next = function () {
+            if (arguments[0] instanceof Error) {
+              return handleError(arguments[0]);
+            }
+            var _args = Array.prototype.slice.call(arguments)
+              , currPre
+              , preArgs;
+            if (_args.length && !(arguments[0] == null && typeof lastArg === 'function'))
+              hookArgs = _args;
+            if (++_current < _total) {
+              currPre = pres[_current]
+              if (currPre.isAsync && currPre.length < 2)
+                throw new Error("Your pre must have next and done arguments -- e.g., function (next, done, ...)");
+              if (currPre.length < 1)
+                throw new Error("Your pre must have a next argument -- e.g., function (next, ...)");
+              preArgs = (currPre.isAsync
+                          ? [once(_next), once(_asyncsDone)]
+                          : [once(_next)]).concat(hookArgs);
+              return currPre.apply(self, preArgs);
+            } else if (!proto[name].numAsyncPres) {
+              return _done.apply(self, hookArgs);
+            }
+          }
+        , _done = function () {
+            var args_ = Array.prototype.slice.call(arguments)
+              , ret, total_, current_, next_, done_, postArgs;
+            if (_current === _total) {
+              ret = fn.apply(self, args_);
+              total_ = posts.length;
+              current_ = -1;
+              next_ = function () {
+                if (arguments[0] instanceof Error) {
+                  return handleError(arguments[0]);
+                }
+                var args_ = Array.prototype.slice.call(arguments, 1)
+                  , currPost
+                  , postArgs;
+                if (args_.length) hookArgs = args_;
+                if (++current_ < total_) {
+                  currPost = posts[current_]
+                  if (currPost.length < 1)
+                    throw new Error("Your post must have a next argument -- e.g., function (next, ...)");
+                  postArgs = [once(next_)].concat(hookArgs);
+                  return currPost.apply(self, postArgs);
+                }
+              };
+              if (total_) return next_();
+              return ret;
+            }
+          };
+      if (_asyncsLeft) {
+        function _asyncsDone (err) {
+          if (err && err instanceof Error) {
+            return handleError(err);
+          }
+          --_asyncsLeft || _done.apply(self, hookArgs);
+        }
+      }
+      function handleError (err) {
+        if ('function' == typeof lastArg)
+          return lastArg(err);
+        if (errorCb) return errorCb.call(self, err);
+        throw err;
+      }
+      return _next.apply(this, arguments);
+    }, 
+2014-03-08T02:18:30.986Z - info:  strictMode=true, selected=undefined, shardval=undefined, saveError=undefined, validationError=undefined, adhocPaths=undefined, removing=undefined, inserting=undefined, version=undefined, , _id=undefined, populate=undefined, populated=undefined, wasPopulated=false, scope=undefined, title=init, link=init, poster=init, type=init, created=init, _id=init, , created=true, type=true, poster=true, link=true, title=true, _id=true, , , stateNames=[require, modify, init, default], ownerDocument=undefined, fullPath=undefined, isNew=false, errors=undefined, _maxListeners=0, title=How to program, link=http://video-js.zencoder.com/oceans-clip.mp4, poster=http://video-js.zencoder.com/oceans-clip.png, type=video/mp4, created=Sun Feb 23 2014 20:49:33 GMT-0500 (EST), _bsontype=ObjectID, id=S
+¥-Ô¿G{cÝl, save=[function (next) {
+    // validate all document arrays.
+    // we keep the error semaphore to make sure we don't
+    // call `save` unnecessarily (we only need 1 error)
+    var subdocs = 0
+      , error = false
+      , self = this;
+
+    // check for DocumentArrays
+    var arrays = this.$__.activePaths
+    .map('init', 'modify', function (i) {
+      return self.getValue(i);
+    })
+    .filter(function (val) {
+      return val && val instanceof DocumentArray && val.length;
+    });
+
+    if (!arrays.length)
+      return next();
+
+    arrays.forEach(function (array) {
+      if (error) return;
+
+      // handle sparse arrays by using for loop vs array.forEach
+      // which skips the sparse elements
+
+      var len = array.length
+      subdocs += len;
+
+      for (var i = 0; i < len; ++i) {
+        if (error) break;
+
+        var doc = array[i];
+        if (!doc) {
+          --subdocs || next();
+          continue;
+        }
+
+        doc.save(handleSave);
+      }
+    });
+
+    function handleSave (err) {
+      if (error) return;
+
+      if (err) {
+        self.$__.validationError = undefined;
+        return next(error = err);
+      }
+
+      --subdocs || next();
+    }
+
+  }, function checkForExistingErrors(next) {
+    // if any doc.set() calls failed
+    var err = this.$__.saveError;
+    if (err) {
+      this.$__.saveError = null;
+      next(err);
+    } else {
+      next();
+    }
+  }, function validation(next) {
+    return this.validate(next);
+  }], save=[], save=function () {
+      var self = this
+        , hookArgs // arguments eventually passed to the hook - are mutable
+        , lastArg = arguments[arguments.length-1]
+        , pres = this._pres[name]
+        , posts = this._posts[name]
+        , _total = pres.length
+        , _current = -1
+        , _asyncsLeft = proto[name].numAsyncPres
+        , _next = function () {
+            if (arguments[0] instanceof Error) {
+              return handleError(arguments[0]);
+            }
+            var _args = Array.prototype.slice.call(arguments)
+              , currPre
+              , preArgs;
+            if (_args.length && !(arguments[0] == null && typeof lastArg === 'function'))
+              hookArgs = _args;
+            if (++_current < _total) {
+              currPre = pres[_current]
+              if (currPre.isAsync && currPre.length < 2)
+                throw new Error("Your pre must have next and done arguments -- e.g., function (next, done, ...)");
+              if (currPre.length < 1)
+                throw new Error("Your pre must have a next argument -- e.g., function (next, ...)");
+              preArgs = (currPre.isAsync
+                          ? [once(_next), once(_asyncsDone)]
+                          : [once(_next)]).concat(hookArgs);
+              return currPre.apply(self, preArgs);
+            } else if (!proto[name].numAsyncPres) {
+              return _done.apply(self, hookArgs);
+            }
+          }
+        , _done = function () {
+            var args_ = Array.prototype.slice.call(arguments)
+              , ret, total_, current_, next_, done_, postArgs;
+            if (_current === _total) {
+              ret = fn.apply(self, args_);
+              total_ = posts.length;
+              current_ = -1;
+              next_ = function () {
+                if (arguments[0] instanceof Error) {
+                  return handleError(arguments[0]);
+                }
+                var args_ = Array.prototype.slice.call(arguments, 1)
+                  , currPost
+                  , postArgs;
+                if (args_.length) hookArgs = args_;
+                if (++current_ < total_) {
+                  currPost = posts[current_]
+                  if (currPost.length < 1)
+                    throw new Error("Your post must have a next argument -- e.g., function (next, ...)");
+                  postArgs = [once(next_)].concat(hookArgs);
+                  return currPost.apply(self, postArgs);
+                }
+              };
+              if (total_) return next_();
+              return ret;
+            }
+          };
+      if (_asyncsLeft) {
+        function _asyncsDone (err) {
+          if (err && err instanceof Error) {
+            return handleError(err);
+          }
+          --_asyncsLeft || _done.apply(self, hookArgs);
+        }
+      }
+      function handleError (err) {
+        if ('function' == typeof lastArg)
+          return lastArg(err);
+        if (errorCb) return errorCb.call(self, err);
+        throw err;
+      }
+      return _next.apply(this, arguments);
+    }, , strictMode=true, selected=undefined, shardval=undefined, saveError=undefined, validationError=undefined, adhocPaths=undefined, removing=undefined, inserting=undefined, version=undefined, , _id=undefined, populate=undefined, populated=undefined, wasPopulated=false, scope=undefined, title=init, link=init, poster=init, type=init, created=init, _id=init, , created=true, type=true, poster=true, link=true, title=true, _id=true, , , $ref=$[0]["$__"]["activePaths"]["stateNames"], ownerDocument=undefined, fullPath=undefined, isNew=false, errors=undefined, _maxListeners=0, title=How to do performance test, link=http://video-js.zencoder.com/oceans-clip.mp4, poster=http://video-js.zencoder.com/oceans-clip.png, type=video/mp4, created=Sun Feb 23 2014 20:50:23 GMT-0500 (EST), _bsontype=ObjectID, id=S
+¥_Ô¿G{cÝm, save=[function (next) {
+    // validate all document arrays.
+    // we keep the error semaphore to make sure we don't
+    // call `save` unnecessarily (we only need 1 error)
+    var subdocs = 0
+      , error = false
+      , self = this;
+
+    // check for DocumentArrays
+    var arrays = this.$__.activePaths
+    .map('init', 'modify', function (i) {
+      return self.getValue(i);
+    })
+    .filter(function (val) {
+      return val && val instanceof DocumentArray && val.length;
+    });
+
+    if (!arrays.length)
+      return next();
+
+    arrays.forEach(function (array) {
+      if (error) return;
+
+      // handle sparse arrays by using for loop vs array.forEach
+      // which skips the sparse elements
+
+      var len = array.length
+      subdocs += len;
+
+      for (var i = 0; i < len; ++i) {
+        if (error) break;
+
+        var doc = array[i];
+        if (!doc) {
+          --subdocs || next();
+          continue;
+        }
+
+        doc.save(handleSave);
+      }
+    });
+
+    function handleSave (err) {
+      if (error) return;
+
+      if (err) {
+        self.$__.validationError = undefined;
+        return next(error = err);
+      }
+
+      --subdocs || next();
+    }
+
+  }, function checkForExistingErrors(next) {
+    // if any doc.set() calls failed
+    var err = this.$__.saveError;
+    if (err) {
+      this.$__.saveError = null;
+      next(err);
+    } else {
+      next();
+    }
+  }, function validation(next) {
+    return this.validate(next);
+  }], save=[], save=function () {
+      var self = this
+        , hookArgs // arguments eventually passed to the hook - are mutable
+        , lastArg = arguments[arguments.length-1]
+        , pres = this._pres[name]
+        , posts = this._posts[name]
+        , _total = pres.length
+        , _current = -1
+        , _asyncsLeft = proto[name].numAsyncPres
+        , _next = function () {
+            if (arguments[0] instanceof Error) {
+              return handleError(arguments[0]);
+            }
+            var _args = Array.prototype.slice.call(arguments)
+              , currPre
+              , preArgs;
+            if (_args.length && !(arguments[0] == null && typeof lastArg === 'function'))
+              hookArgs = _args;
+            if (++_current < _total) {
+              currPre = pres[_current]
+              if (currPre.isAsync && currPre.length < 2)
+                throw new Error("Your pre must have next and done arguments -- e.g., function (next, done, ...)");
+              if (currPre.length < 1)
+                throw new Error("Your pre must have a next argument -- e.g., function (next, ...)");
+              preArgs = (currPre.isAsync
+                          ? [once(_next), once(_asyncsDone)]
+                          : [once(_next)]).concat(hookArgs);
+              return currPre.apply(self, preArgs);
+            } else if (!proto[name].numAsyncPres) {
+              return _done.apply(self, hookArgs);
+            }
+          }
+        , _done = function () {
+            var args_ = Array.prototype.slice.call(arguments)
+              , ret, total_, current_, next_, done_, postArgs;
+            if (_current === _total) {
+              ret = fn.apply(self, args_);
+              total_ = posts.length;
+              current_ = -1;
+              next_ = function () {
+                if (arguments[0] instanceof Error) {
+                  return handleError(arguments[0]);
+                }
+                var args_ = Array.prototype.slice.call(arguments, 1)
+                  , currPost
+                  , postArgs;
+                if (args_.length) hookArgs = args_;
+                if (++current_ < total_) {
+                  currPost = posts[current_]
+                  if (currPost.length < 1)
+                    throw new Error("Your post must have a next argument -- e.g., function (next, ...)");
+                  postArgs = [once(next_)].concat(hookArgs);
+                  return currPost.apply(self, postArgs);
+                }
+              };
+              if (total_) return next_();
+              return ret;
+            }
+          };
+      if (_asyncsLeft) {
+        function _asyncsDone (err) {
+          if (err && err instanceof Error) {
+            return handleError(err);
+          }
+          --_asyncsLeft || _done.apply(self, hookArgs);
+        }
+      }
+      function handleError (err) {
+        if ('function' == typeof lastArg)
+          return lastArg(err);
+        if (errorCb) return errorCb.call(self, err);
+        throw err;
+      }
+      return _next.apply(this, arguments);
+    }, 
+2014-03-08T02:30:00.997Z - info: DB Connected!
+2014-03-08T02:38:14.003Z - info: DB Connected!
+2014-03-08T02:41:26.409Z - info: DB Connected!
+2014-03-08T05:24:06.381Z - info: DB Connected!
+2014-03-09T00:04:08.445Z - info: DB Connected!
+2014-03-09T00:11:55.141Z - info: DB Connected!
+2014-03-09T00:17:31.864Z - info: DB Connected!
+2014-03-16T23:41:59.043Z - info: DB Connected!
+2014-03-17T00:38:53.723Z - info: DB Connected!
+2014-03-17T00:45:41.354Z - info: DB Connected!
